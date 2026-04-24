@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Card = ({ item }: Props) => {
-  return <div>{item.content}</div>;
+  return <div>{item.content} helo</div>;
 };
 
 export default Card;
