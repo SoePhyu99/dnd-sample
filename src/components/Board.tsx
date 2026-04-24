@@ -4,8 +4,8 @@ import {
   Droppable,
   type DropResult,
 } from "@hello-pangea/dnd";
-import { useState } from "react";
 import { initialData, type BoardData } from "../lib/data";
+import { useState } from "react";
 
 const Board = () => {
   const [data, setData] = useState<BoardData>(initialData);
