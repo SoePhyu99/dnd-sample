@@ -1,4 +1,5 @@
 import type { Item } from "../lib/data";
+import React from "react";
 
 interface Props {
   item: Item;
