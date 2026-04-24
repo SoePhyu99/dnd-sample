@@ -1,9 +1,9 @@
-interface Item {
+export interface Item {
   id: string;
   content: string;
 }
 
-interface Column {
+export interface Column {
   id: string;
   title: string;
   items: Item[];
